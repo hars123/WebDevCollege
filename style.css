@@ -18,7 +18,8 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       width: 100%;
-      max-width: 400px;
+      max-width: 650px;
+      border: 1px solid black;
     }
 
     .form-container h2 {
@@ -64,15 +65,16 @@
     .form-group button {
       width: 100%;
       padding: 10px;
-      background: #007bff;
+      background: orange;
       border: none;
-      color: #fff;
+      color: black;
       font-size: 16px;
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
+      border: 1px solid black;
     }
 
     .form-group button:hover {
-      background: #0056b3;
+      background: white;
     }
