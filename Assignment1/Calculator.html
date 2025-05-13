@@ -30,8 +30,12 @@
       <button class="operator" onclick="append('+')">+</button>
 
       <button class="clear" onclick="clearDisplay()" style="grid-column: span 4;">C</button>
+
+      
     </div>
+  
   </div>
+  <button  style="grid-column: span 4; border: 1px solid black; margin: 90px;" onclick="closeTab()">Close calculator</button>
 
   <script>
     const display = document.getElementById('display');
@@ -51,6 +55,10 @@
     function clearDisplay() {
       display.value = '';
     }
+
+    function closeTab() {
+            window.close(); // Attempt to close the current tab
+        }
   </script>
 </body>
 </html>
